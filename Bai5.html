@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+      <script>
+          let giualy = parseInt(prompt("Nhập điểm giữ kì:"));
+          let cuoiky = parseInt(prompt("Nhập điểm cuối kỳ:"));
+          let diem = (giualy+(cuoiky*2))/3 ;
+          if (diem>8){
+              alert("Đạt học lực giỏi");
+          }
+          else if (diem>6.5){
+              alert("Đạt học lực khá");
+          }
+          else if (diem>3){
+              alert("Đạt học lực trung bình");
+          }
+          else {
+              alert("Đạt học lực yếu");
+          }
+      </script>
+</body>
+</html>
